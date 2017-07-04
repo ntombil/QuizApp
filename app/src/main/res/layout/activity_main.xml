@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7575"
+    android:layout_weight="1">
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.lisbeth.quizapp.MainActivity"
+        android:weightSum="1">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="404dp"
+            android:layout_height="192dp"
+            android:layout_marginRight="100dp"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="50dp"
+            app:srcCompat="@drawable/welcome" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="277dp"
+            android:layout_marginLeft="140dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:layout_marginBottom="50dp"
+            android:textSize="54dp"
+            android:text="TO" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:textSize="54dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="110dp"
+            android:text="QuizApp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginBottom="80dp"
+            android:layout_marginTop="80dp"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/btnPlay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.08"
+                android:background="#4040"
+                android:text="How To Play" />
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="193dp"
+                android:layout_height="wrap_content"
+                android:background="#4040"
+                android:onClick="next"
+                android:text="NEXT" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:text="By : SIBEKO LN" />
+
+
+    </LinearLayout>
+
+</ScrollView>

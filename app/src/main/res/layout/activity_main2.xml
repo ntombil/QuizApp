@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/awards"
+        android:orientation="vertical"
+        tools:context="com.example.lisbeth.quizapp.Main2Activity"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="36sp"
+            android:text="How many awards did Babes Wodumo got?" />
+
+        <RadioGroup
+            android:id="@+id/group1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RadioButton
+                android:id="@+id/rad4"
+                android:layout_width="wrap_content"
+                android:layout_height="36sp"
+                android:layout_weight="1"
+                android:text="One" />
+
+            <RadioButton
+                android:id="@+id/rad3"
+                android:layout_width="wrap_content"
+                android:layout_height="36sp"
+                android:layout_weight="1"
+                android:text="Two" />
+
+            <RadioButton
+                android:id="@+id/rad2"
+                android:layout_width="wrap_content"
+                android:layout_height="36sp"
+                android:layout_weight="1"
+                android:text="Three" />
+
+            <RadioButton
+                android:id="@+id/rad1"
+                android:layout_width="wrap_content"
+                android:layout_height="36sp"
+                android:layout_weight="1"
+                android:text="None" />
+        </RadioGroup>
+
+
+        <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="36sp"
+        android:text="Who won the award for best female Rap?" />
+
+        <RadioGroup
+            android:id="@+id/group2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RadioButton
+                android:id="@+id/rad8"
+                android:layout_width="wrap_content"
+                android:layout_height="36sp"
+                android:layout_weight="1"
+                android:text="Nicky Minaj" />
+
+            <RadioButton
+                android:id="@+id/rad7"
+                android:layout_width="wrap_content"
+                android:layout_height="36sp"
+                android:layout_weight="1"
+                android:text="Fifi Cooper" />
+
+            <RadioButton
+                android:id="@+id/rad6"
+                android:layout_width="wrap_content"
+                android:layout_height="36sp"
+                android:layout_weight="1"
+                android:text="Mshoza" />
+
+            <RadioButton
+                android:id="@+id/rad5"
+                android:layout_width="wrap_content"
+                android:layout_height="36sp"
+                android:layout_weight="1"
+                android:text="Sof'Touch" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="36sp"
+            android:layout_weight="1"
+            android:text="Who is the winner of best newcomer of the year?" />
+        <RadioGroup
+            android:id="@+id/group3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/rad13"
+                android:layout_width="wrap_content"
+                android:layout_height="36sp"
+                android:layout_weight="1"
+                android:text="Malaika" />
+
+            <RadioButton
+                android:id="@+id/rad14"
+                android:layout_width="wrap_content"
+                android:layout_height="36sp"
+                android:layout_weight="1"
+                android:text="Amanda Black" />
+
+            <RadioButton
+                android:id="@+id/rad15"
+                android:layout_width="wrap_content"
+                android:layout_height="36sp"
+                android:layout_weight="1"
+                android:text="Soul Kulture" />
+
+            <RadioButton
+                android:id="@+id/rad16"
+                android:layout_width="wrap_content"
+                android:layout_height="36sp"
+                android:layout_weight="1"
+                android:text="DJ Tira" />
+
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="36sp"
+                android:text="Who won more awards in SAMA?" />
+
+            <RadioGroup
+            android:id="@+id/group4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/rad9"
+                android:layout_width="wrap_content"
+                android:layout_height="36sp"
+                android:layout_weight="1"
+                android:text="Babes Wodumo" />
+
+        <RadioButton
+            android:id="@+id/rad10"
+            android:layout_width="wrap_content"
+            android:layout_height="36sp"
+            android:text="Kwesta" />
+        <RadioButton
+            android:id="@+id/rad11"
+            android:layout_width="wrap_content"
+            android:layout_height="36sp"
+            android:text="Emtee" />
+        <RadioButton
+            android:id="@+id/rad12"
+            android:layout_width="wrap_content"
+            android:layout_height="36sp"
+            android:text="Mafikizolo" />
+
+
+        </RadioGroup>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/butScore"
+                android:layout_width="124dp"
+                android:layout_height="wrap_content"
+                android:onClick="liz"
+                android:text="SCORE" />
+            <Button
+                android:id="@+id/but1"
+                android:layout_width="143dp"
+                android:onClick="more"
+                android:layout_height="wrap_content"
+                android:text="NEXT" />
+            <Button
+                android:id="@+id/but5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="rev"
+                android:text="BACK" />
+
+        </LinearLayout>
+        </RadioGroup>
+        </LinearLayout>
+       </ScrollView>

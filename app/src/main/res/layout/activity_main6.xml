@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7575"
+    android:orientation="vertical"
+    tools:context="com.example.lisbeth.quizapp.Main6Activity">
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="who was the first black president in South Africa?"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <RadioGroup
+        android:id="@+id/RdGrd0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    <RadioButton
+        android:id="@+id/radioButt01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Steve Biko"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <RadioButton
+        android:id="@+id/radioButt02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desmond Tutu"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <RadioButton
+        android:id="@+id/radioButt03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thabo Mbeki"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <RadioButton
+        android:id="@+id/radioButt04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nelson  Mandela"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="112dp" />
+</RadioGroup>
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="On which year did Nelson Mandela passed away?"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <RadioGroup
+        android:id="@+id/RdGrd00"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RadioButton
+            android:id="@+id/radioButt05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 December 2013"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="169dp" />
+
+        <RadioButton
+        android:id="@+id/radioButt07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25 october 2011"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+        <RadioButton
+            android:id="@+id/radioButt06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13 November 2014"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="201dp" />
+
+        <RadioButton
+        android:id="@+id/radioButt08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="09 february 2000"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="271dp" />
+</RadioGroup>
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How many wifes did Nelson Mandela have?"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <RadioGroup
+        android:id="@+id/RdGrd000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    <RadioButton
+        android:id="@+id/radioButt09"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 wifes"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <RadioButton
+        android:id="@+id/radioButt10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3 wifes"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <RadioButton
+        android:id="@+id/radioButt011"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4 Wifes"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <RadioButton
+        android:id="@+id/radioButt012"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Didn't have one"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="416dp" />
+</RadioGroup>
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="On which month did Mandela walked free after 27 years in prison?" />
+
+    <RadioGroup
+        android:id="@+id/RdGrd0000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RadioButton
+        android:id="@+id/radioButt013"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="February" />
+
+        <RadioButton
+        android:id="@+id/radioButt014"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="March" />
+
+        <RadioButton
+        android:id="@+id/radioButt015"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="April" />
+
+    <RadioButton
+        android:id="@+id/radioButt016"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="December" />
+
+        <Button
+            android:id="@+id/btnZcore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Score" />
+
+        <Button
+            android:id="@+id/btnBuck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back" />
+
+
+
+    </RadioGroup>
+</LinearLayout>
+</ScrollView>

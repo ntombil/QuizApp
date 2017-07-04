@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/prog"
+    android:orientation="vertical"
+    tools:context="com.example.lisbeth.quizapp.Main3Activity"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="On which channel did Muvhango play?" />
+
+    <RadioGroup
+        android:id="@+id/radioGrp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+    <RadioButton
+        android:id="@+id/radioG2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="SABC3" />
+
+    <RadioButton
+        android:id="@+id/radioG1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SABC2"
+        android:layout_weight="1" />
+
+    <RadioButton
+        android:id="@+id/radioG3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="SABC1" />
+
+    <RadioButton
+        android:id="@+id/radioG4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="ETV" />
+</RadioGroup>
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="On which day did Friends like these play?" />
+
+    <RadioGroup
+        android:id="@+id/radioGrp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+    <RadioButton
+        android:id="@+id/radioG6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wendesday and Thursday"
+        android:layout_weight="1" />
+
+    <RadioButton
+        android:id="@+id/radioG7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Monday and Friday" />
+
+    <RadioButton
+        android:id="@+id/radioG8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Saturday" />
+
+    <RadioButton
+        android:id="@+id/radioG9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Sunday" />
+</RadioGroup>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is the real name for Mxolisi in Uzalo?" />
+
+    <RadioGroup
+        android:id="@+id/radioGrp3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RadioButton
+            android:id="@+id/radioG5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Inno Mazibuko" />
+
+        <RadioButton
+            android:id="@+id/radioG11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Lukas Ramatsetse" />
+
+        <RadioButton
+            android:id="@+id/radioG12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Nay Maps"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="447dp" />
+
+        <RadioButton
+            android:id="@+id/radioG13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Jonkie Mbhovu" />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Which soapie did Nikiwe Sibeko play?" />
+
+    <RadioGroup
+        android:id="@+id/radioGrp4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RadioButton
+        android:id="@+id/radioG10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Generation" />
+
+    <RadioButton
+        android:id="@+id/radioG14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Muvhango" />
+
+    <RadioButton
+        android:id="@+id/radioG15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Uzalo" />
+
+    <RadioButton
+        android:id="@+id/radioG16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Isidingo" />
+</RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btnScore"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:text="SCORE"
+            android:layout_weight="0.49" />
+
+        <Button
+            android:id="@+id/btncancel"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:text="back" />
+
+        <Button
+            android:id="@+id/btnAfter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.49"
+            android:text="Next" />
+    </LinearLayout>
+</LinearLayout >
+</ScrollView>

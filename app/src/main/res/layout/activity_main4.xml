@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#7575"
+        android:orientation="vertical"
+        tools:context="com.example.lisbeth.quizapp.Main4Activity">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is the capital city of Limpopo?" />
+
+        <RadioGroup
+            android:id="@+id/radG1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        <RadioButton
+            android:id="@+id/radio01"
+            android:layout_width="508dp"
+            android:layout_height="wrap_content"
+            android:text="Polokwane" />
+
+        <RadioButton
+            android:id="@+id/radio02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mbombela" />
+
+        <RadioButton
+            android:id="@+id/radio03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Madubaduba" />
+
+        <RadioButton
+            android:id="@+id/radio04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ulundi" />
+        </RadioGroup>
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Where do we found Gold in South Africa?" />
+
+        <RadioGroup
+            android:id="@+id/radG2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        <RadioButton
+            android:id="@+id/radio05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Eastern Cape" />
+
+        <RadioButton
+            android:id="@+id/radio06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="North West" />
+
+        <RadioButton
+            android:id="@+id/radio07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Gauteng" />
+
+        <RadioButton
+            android:id="@+id/radio08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Limpopo" />
+        </RadioGroup>
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Who is the premier of Mpumalanga?" />
+
+        <RadioGroup
+            android:id="@+id/radG3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RadioButton
+                android:id="@+id/radio09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Mr DD Mabuza" />
+
+
+            <RadioButton
+                android:id="@+id/radio010"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mr JP Mahlangu" />
+
+            <RadioButton
+                android:id="@+id/radio011"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mrs LN Khauza" />
+
+            <RadioButton
+                android:id="@+id/radio012"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Miss T Sikhweni" />
+        </RadioGroup>
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What do the colour Red in the S.A flag represent?" />
+
+        <RadioGroup
+            android:id="@+id/radG4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RadioButton
+                android:id="@+id/radio016"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Joy" />
+            <RadioButton
+                android:id="@+id/radio013"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Craziness" />
+            <RadioButton
+                android:id="@+id/radio014"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Danger" />
+            <RadioButton
+                android:id="@+id/radio015"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Blood" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next" />
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btnLiz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SCORE" />
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Back" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
